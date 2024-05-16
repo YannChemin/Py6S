@@ -45,6 +45,6 @@ clean:
 	rm -f sixsV2.1-lutaero
 	
 install:
-	cp sixsV2.1 /usr/local/bin/
-	cp sixsV2.1-lutaero /usr/local/bin/
+	cp -f sixsV2.1 /usr/local/bin/
+	cp -f sixsV2.1-lutaero /usr/local/bin/
 	
