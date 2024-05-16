@@ -35,7 +35,7 @@ from .Params import (
 )
 from .sixs_exceptions import ExecutionError, ParameterError
 
-SIXSVERSION = "1.1"
+SIXSVERSION = "2.1"
 
 # Fix for Python 3 where basestring is not available
 if sys.version_info[0] >= 3:
@@ -177,8 +177,8 @@ class SixS(object):
             return (
                 self._which("sixs.exe")
                 or self._which("sixs")
-                or self._which("sixsV1.1")
-                or self._which("sixsV1.1.exe")
+                or self._which("sixsV2.1")
+                or self._which("sixsV2.1.exe")
             )
 
     def _which(self, program):
